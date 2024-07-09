@@ -13,11 +13,11 @@ import one.digitalinnovation.gof.service.ClienteService;
 import one.digitalinnovation.gof.service.ViaCepService;
 
 /**
- * Implementação da <b>Strategy</b> {@link ClienteService}, a qual pode ser
+ * Implementação do pradrão comportamental <b>Strategy</b> {@link ClienteService}, a qual pode ser
  * injetada pelo Spring (via {@link Autowired}). Com isso, como essa classe é um
- * {@link Service}, ela será tratada como um <b>Singleton</b>.
+ * {@link Service}, ela será tratada como um padrão criacional <b>Singleton</b>.
  * 
- * @author falvojr
+ * @author roadris
  */
 @Service
 public class ClienteServiceImpl implements ClienteService {
@@ -30,9 +30,7 @@ public class ClienteServiceImpl implements ClienteService {
 	@Autowired
 	private ViaCepService viaCepService;
 	
-	// Strategy: Implementar os métodos definidos na interface.
-	// Facade: Abstrair integrações com subsistemas, provendo uma interface simples.
-
+	
 	@Override
 	public Iterable<Cliente> buscarTodos() {
 		// Buscar todos os Clientes.
