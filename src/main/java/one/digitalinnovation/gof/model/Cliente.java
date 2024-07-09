@@ -6,6 +6,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/**
+ * Classe Cliente com os atributos de id, nome e endereço.
+ * 
+ * @author roadris
+ */
+
 @Entity
 public class Cliente {
 
