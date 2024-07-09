@@ -6,13 +6,14 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * Projeto Spring Boot gerado via Spring Initializr.
+ * @see <a href="https://start.spring.io/">Spring Initializr</a>
  * Os seguintes módulos foram selecionados:
  * - Spring Data JPA
  * - Spring Web
  * - H2 Database
  * - OpenFeign
  * 
- * @author falvojr
+ * @author roadris
  */
 @EnableFeignClients
 @SpringBootApplication
