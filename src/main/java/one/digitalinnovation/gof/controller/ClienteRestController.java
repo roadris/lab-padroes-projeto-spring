@@ -15,11 +15,11 @@ import one.digitalinnovation.gof.model.Cliente;
 import one.digitalinnovation.gof.service.ClienteService;
 
 /**
- * Esse {@link RestController} representa nossa <b>Facade</b>, pois abstrai toda
+ * Esse {@link RestController} representa o padrão <b>Facade</b>, pois abstrai toda
  * a complexidade de integrações (Banco de Dados H2 e API do ViaCEP) em uma
  * interface simples e coesa (API REST).
  * 
- * @author falvojr
+ * @author roadris
  */
 @RestController
 @RequestMapping("clientes")
